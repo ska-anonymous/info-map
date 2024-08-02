@@ -1,0 +1,84 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+#countries
+{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+#header h1
+{
+	margin: 0;
+	display: inline-block;
+	color: #fff;
+	font-size: 30px;
+	padding: 0 20px 0 0;
+	vertical-align: middle;
+}
+#map
+{
+	position: relative;
+	z-index: 1;
+	/* margin-top: 57px; */
+	height: calc(100vh) !important;
+}
+.allModalBtns
+{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 2
+}
+.allModalBtns button
+{
+	width: 40px;
+}
+.dropdownCountry
+{
+	padding: 5px 8px;
+	font-size: 20px;
+	width: 250px;
+	vertical-align: middle;
+}
+.leaflet-bar button, .leaflet-control-zoom-in, .leaflet-control-zoom-out
+{
+	height: 40px !important;
+	width: 40px !important;
+	font-size: 1.5em;
+	padding: 8px;
+}
+.modal-body
+{
+	height: 70vh;
+	overflow-y: auto;
+}
+
+.border-right{
+	border-right: 1px solid white !important;
+}
+
+#flag
+{
+	display: block;
+	margin: 0 auto;
+}
+#txtWikiImg
+{
+	text-align: center;
+}
+.holiday, .airports
+{
+	padding: 5px 0;
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+}
